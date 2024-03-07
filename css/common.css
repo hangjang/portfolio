@@ -215,10 +215,11 @@ footer{
     /* color:#488eb0; */
     /* color:#003296; */
     line-height: 13px;
-    color:#393939;
+    /* color:#393939; */
+    color:#003296;
     /* border:3px solid #488eb0; */
-    /* border:3px solid #003296; */
-    border:2px solid #393939;
+    border:3px solid #003296;
+    /* border:2px solid #393939; */
     border-radius: 50%;
     text-align: center;
     cursor: pointer;

@@ -59,5 +59,9 @@ button{
 
 
 
-
-
+@font-face{
+    font-family:'DM serif Display';
+    src:url('DMSerifDisplay-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
