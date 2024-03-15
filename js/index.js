@@ -43,7 +43,7 @@ $(()=>{
 
     $(window).scroll(() => {
         let scroll = $(window).scrollTop();
-        console.log(scroll);
+        // console.log(scroll);
         // topbtn
         if (scroll > 100) {
             $(".topbtn").fadeIn();
@@ -195,7 +195,7 @@ $(()=>{
 
     $(".project-tab li").click(function(){
         let index=$(this).index();
-        console.log(index);
+        // console.log(index);
 
         $(this).addClass("tabclick");
         $(this).siblings().removeClass("tabclick");
