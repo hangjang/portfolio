@@ -1,8 +1,8 @@
 $(()=>{
-    if(window.matchMedia("(max-width:450px)").matches){
+    if(window.matchMedia("(max-width:899px)").matches){ //450px
         $("nav").hide();
         let count=0;
-        $(".menu-icon").click(function(){
+        $("header").click(function(){
             count++;
             if(count%2==0){
                 $("nav").slideUp();
@@ -193,7 +193,7 @@ $(()=>{
     })
 
 
-    $(".project-tab li").click(function(){
+    $(".project-tab a").click(function(){ //.project-tab li
         let index=$(this).index();
         // console.log(index);
 
