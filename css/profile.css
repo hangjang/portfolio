@@ -35,9 +35,6 @@
 }
 
 @media (max-width:1399px){
-    #profile{
-        padding:100px 0;
-    }
     .profile-wrap{
         width:90vw;
         /* padding:7% 8%; */
@@ -50,24 +47,24 @@
     }
 }
 
-.aboutme{
-    display:flex;
-}
+/* .aboutme{
+    width:80%;
+    padding-bottom:3%;
+} */
 
-.aboutme p{ /* .aboutme span */
-    /* padding-right:15px; */
-    padding-right:20px;
+.aboutme span{
+    padding-right:15px;
     font-size:2rem;
     /* font-family: 'LINESeedKR-Bd'; */
     font-family: 'Pretendard-Regular';
     position:relative;
     font-weight: bold;
 }
-/* .aboutme p:nth-child(2){ .aboutme span */
-    /* padding:0 16px 0px 22px; */
-    /* position:relative; */
-/* } */
-/* .aboutme p:nth-of-type(2)::after{ .aboutme span
+.aboutme span:nth-child(2){
+    padding:0 16px 0px 22px;
+    position:relative;
+}
+.aboutme span:nth-of-type(2)::after{
     content:'';
     width:4px;
     height:30px;
@@ -76,12 +73,12 @@
     position:absolute;
     top:4px;
     left:0px;
-} */
+}
 
-.aboutme p:nth-child(5){ /* .aboutme span */
+.aboutme span:nth-child(3){
     /* padding:0 20px; */
-    /* padding:0 16px 0px 22px; */
-    /* position:relative; */
+    padding:0 16px 0px 22px;
+    position:relative;
     /* color:#488eb0; */
     /* color:#674f80; */
     /* color: #6200ee; */
@@ -91,7 +88,7 @@
     color:#4E9525;
     /* color:#393939; */
 }
-/* .aboutme p:nth-of-type(3)::after{ .aboutme span
+.aboutme span:nth-of-type(3)::after{
     content:'';
     width:4px;
     height:30px;
@@ -100,21 +97,21 @@
     position:absolute;
     top:4px;
     left:0px;
-} */
+}
 @media (max-width:767px){
     .aboutme{
         padding-bottom:3%;
     }
-    .aboutme p{ /* .aboutme span */
+    .aboutme span{
         font-size:4vw;
         padding-right:2.5%;
     }
-    /* .aboutme p:nth-child(2),.aboutme p:nth-child(3){ .aboutme span
+    .aboutme span:nth-child(2),.aboutme span:nth-child(3){
         padding:0 3% 0 5%;
     }
-    .aboutme p:nth-of-type(2)::after,.aboutme p:nth-of-type(3)::after{ .aboutme span
+    .aboutme span:nth-of-type(2)::after,.aboutme span:nth-of-type(3)::after{
         height:4vw;
-    } */
+    }
 }
 /* @media (min-width:1000px) and (max-width:1399px){
     .aboutme span:nth-of-type(2)::after{

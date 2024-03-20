@@ -71,10 +71,6 @@
     }
 }
 @media (max-width:1399px){
-    #intro{
-        height:100dvh;
-        padding:100px 0;
-    }
     .intro-wrap{
         width:100%;
     }
