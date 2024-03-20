@@ -193,7 +193,7 @@ $(()=>{
     })
 
 
-    $(".project-tab li").click(function(){
+    $(".project-tab a").click(function(){ //.project-tab li
         let index=$(this).index();
         // console.log(index);
 
