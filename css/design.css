@@ -196,11 +196,11 @@
     left:50%;
     transform: translate(-50%, -50%);
 }
-/* @media (min-width:414px) and (max-width:1399px){
+@media (orientation: landscape) {
     .insta-modal-wrap{
         height:calc(100% - 50px);
     }
-} */
+}
 @media (max-width:413px){
     .insta-modal-wrap{
         height:auto;
