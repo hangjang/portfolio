@@ -1,8 +1,8 @@
 $(()=>{
-    if(window.matchMedia("(max-width:899px)").matches){ //450px
+    if(window.matchMedia("(max-width:450px)").matches){
         $("nav").hide();
         let count=0;
-        $("header").click(function(){
+        $(".menu-icon").click(function(){
             count++;
             if(count%2==0){
                 $("nav").slideUp();

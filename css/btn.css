@@ -83,10 +83,3 @@
     color:#4E9525;
     /* color:#393939; */
 }
-
-@media (max-width:1399px){
-
-    .btn{
-        width:10vw;
-    }
-}
